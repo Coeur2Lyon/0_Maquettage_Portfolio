@@ -1,0 +1,119 @@
+html, body {
+margin:0; /* pas de marges extérieures*/
+padding:0; /* pas de marges intérieures*/
+background: url("../images/VF_code_cartouche_filigrane._8-100_bleu.jpg") no-repeat center 200px #006df0;
+}
+
+div{
+  margin: 0;
+  padding: 0;
+}
+
+div.pages{
+  height:600px;
+  width: 95%;
+  min-width: 300px;
+}
+#bloc_page{
+margin:0;
+padding:0;
+}
+#menu_responsive{
+  display: none;
+}
+header{
+  margin: 0;
+  padding: 0;
+}
+nav { /* Style de la barre de navigation */
+  margin-top: 0; /* retrait de marge exterieur pour coller la barre de nav.au haut de page*/
+  padding: 0; /* pas de marges intérieures dans la barre de nav.*/
+  font-family:Arial, Helvetica, sans-serif; /* Police Helvetica */
+  font-weight: bold;
+  background: linear-gradient( #1b4ca9, #8dcceb 70%),
+  linear-gradient(#8dcceb, #d9d9d9 30%); /* J'applique un double dégrdé: Bleu-foncé à bleu ciel sur 70% de la hauteur de la barre de nav. et du bleu ciel au gris sur les 30% restants */
+  width: 100%; /* permet à la barre nav.de prendre toute la largeur de la fenêtre */
+  height: 60px;
+  position: fixed;
+}
+
+nav li
+{
+  margin:auto;
+  text-align: center;
+  align-content: space-between; /*Réparti avec un espacement égale entre eux */
+  list-style-type: none;
+  font-size: 15px;
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+  width: auto;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+  list-style-type: none;
+}
+nav a{
+  margin: 0;
+  padding-top: 20px;
+  text-decoration: none;
+  color: white;
+}
+nav a:hover{
+  font-size: 17px;
+  color:grey;
+  opacity: 0.8;
+}
+nav img{
+  margin-top: 5px;
+  height: 50px;
+}
+nav img:hover{
+  opacity: 0.8;
+}
+hr {
+  margin: 0;
+  width: 100%;
+  size: 10px;
+  color: lightgrey;
+  vertical-align:bottom;
+}
+/* Style des titres de chaque chapitre */
+h1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  text-align: center;
+  color:#ffffff;
+  font-family: verdana sans-serif;
+}
+#titres{
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+div#page_accueil.pages{
+  height:800px;
+}
+
+/* Style de la page Présentation */
+
+div#presentation1{
+  margin-top: 20px;
+  background-color: lightgrey;
+  height:95%;
+  width: 40%;
+
+}
+#presentation2{
+  background-color: lightgrey;
+  margin-top: 20px;
+  background-color: grey;
+  height:95%;
+  width: 40%;
+
+}
